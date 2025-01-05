@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <title>Index</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+    
+        /*Body Styling */
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(images/gif\ imges.gif);
+        background-size: auto;
+        background-attachment: fixed;
+        background-color: pink;
+    }
+    </style>
+
+ 
+
+
+    <body>
+        <br>
+        <br>
+        <br>
+      
+
+        <table style="text-align: center;" width="100%">
+
+        <tr>
+            <td>
+                <p>
+                    <font size="250" face="impact" align="center">WELCOME</font>
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>
+                    <font size="250" face="impact" align="center"> TO MURNI'S</font>
+
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                    <font size="250" face="impact" align="center">WEBSITES</font>
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <link rel="stylesheet" href="style.css">
+
+    <body bgcolor="black">
+
+
+
+        <div align="center">
+            <header>
+            <h1> <font size="150" face="Brush Script MT" > 🎀 Murni Shafiqah bt Mohd Salahudin 🎀</font>
+            </h1>
+        </header>
+        
+            <div align="center"> 
+
+                <body>
+                   
+                    <!--Local-link to other page within the current website-->
+                    <a href="mybiodata.html" target="_self">MY BIODATA</a>
+                    <a href="favorite.html" target="_blank">FAVORITE</a>
+                    <a href="media.html" target="_blank">MEDIA</a>
+                    <a href="family.html" target="_blank">FAMILY</a>
+                    <a href="travelling.html" target="_blank">TRAVEL</a>
+
+
+                    <br>
+                    <br>
+                    <br>
+                    <hr size="3" color="purple" width="50%" >
+             <blockquote>
+                 Murni's Life Quotes
+             <blockquote>
+              <em>❤️ "Never give up in your life, There is always a rainbow after a heavy rain"❤️</em>
+             <blockquote>
+             </blockquote>     
+
+
+
+                    <body onload="startTime()">
+
+                        <div id="txt"></div>
+                        
+                        <script>
+                        function startTime() {
+                          const today = new Date();
+                          let h = today.getHours();
+                          let m = today.getMinutes();
+                          let s = today.getSeconds();
+                          m = checkTime(m);
+                          s = checkTime(s);
+                          document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+                          setTimeout(startTime, 1000);
+                        }
+                        
+                        function checkTime(i) {
+                          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                          return i;
+                        }
+                        </script>
+                        
+                        <p id="demo"></p>
+                        
+                        <script>
+                        const time = new Date(100000000000);
+                        </script>
+                    
+                    </style>
+
+         <hr size="3" color="purple" width="50%" >
+
+<footer>
+    <p>&copy; 2025 Murni Shafiqah. All rights reserved.</p>
+</footer>
+  
+                
+    </body>
+</html>
