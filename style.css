@@ -1,0 +1,41 @@
+body
+   {background-color: thistle;}
+
+
+   a:link
+
+   {
+    color: hotpink;
+    background-color: hotpink;
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+
+   }
+
+a:visited
+
+{
+    color:snow;
+    background-color:palevioletred
+    text-decoration: none;
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    padding: 15px;
+
+}
+h1
+{
+    color: burlywood;
+    background-color:rgb(105, 35, 64);
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+h1
+{
+    color: hotpink;
+}
+
